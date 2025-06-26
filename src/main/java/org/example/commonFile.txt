@@ -3,4 +3,4 @@ I'm modifying it
 Are you on master and testBranchA branch
 This is master and testBranchA
 This is testBranchA second
-Let's play on testBranchA
+Let's play on master
