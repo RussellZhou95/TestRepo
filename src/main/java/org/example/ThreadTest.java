@@ -24,16 +24,13 @@ public class ThreadTest {
 @RequiredArgsConstructor
 class MyThread extends Thread implements Runnable {
 
-    private final MsgProducer producer;
-    private final MessageProducer messageProducer;
+    private final MessageProducer producer;
     private final int index;
 
     @Override
     public void run() {
-
         for (int j = 1; j <=10; j++) {
-            messageProducer.sendMessage("test-queue",currentThread().getName()+" and producer 1's "+j+" th msg");
-            producer.sendMsg("test-queue2", currentThread().getName() + " and producer 2's "+j + " th msg" );
+            producer.sendMessage("test-queue", currentThread().getName() + "'s "+j + " th msg" );
         }
 
     }
