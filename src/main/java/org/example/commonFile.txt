@@ -1,1 +1,2 @@
-This is a common file on testBranchA branch
+This is a common file on master and testBranchA branch
+I'm modifying it
