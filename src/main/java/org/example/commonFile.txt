@@ -1,3 +1,3 @@
 This is a common file on master and testBranchA branch
 I'm modifying it
-Are you on testBranchA branch
+Are you on master and testBranchA branch
